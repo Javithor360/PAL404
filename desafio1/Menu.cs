@@ -29,10 +29,18 @@ namespace desafio1
             ejercicio2.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Ejercicio3 ejercicio3 = new Ejercicio3();
             ejercicio3.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Ejercicio4 ejercicio4 = new Ejercicio4();
+            ejercicio4.Show();
+        }
+
+
     }
 }
