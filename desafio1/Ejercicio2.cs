@@ -35,7 +35,7 @@ namespace desafio1
             }
 
             /* Se verifica que sea un número */
-            if(double.TryParse(textValue, out double grade)) 
+            if (double.TryParse(textValue, out double grade))
             {
                 /* Se crea la varible que contendra el mensaje final */
                 String msg;
@@ -57,7 +57,7 @@ namespace desafio1
                 {
                     msg = "¡Vamos! La nota en tu materia es: D, demuestra que eres capaz de más.";
                 }
-                else if(grade < 6 && grade <= 0)
+                else if (grade >= 0 && grade < 6)
                 {
                     msg = "¡Ups! La nota en tu materia es: F, esfuérzate más a la próxima.";
                 }
